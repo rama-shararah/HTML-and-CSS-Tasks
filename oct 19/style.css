@@ -1,0 +1,50 @@
+*{font-family: arial;}
+h1 {
+    font-family: Arial;
+}
+h2 {
+    color: royalblue;
+    background-color: rgb(157, 189, 248);
+    font-family: 'Times New Roman', Times, serif;
+}
+.blue {
+    color:royalblue;
+    
+}
+
+.darkblue{
+    color: rgb(25, 74, 134);
+    text-align: left;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+table th{
+    border: 1px solid black;
+    margin: 0px;
+    border-collapse: collapse;
+    padding: 2px;
+}
+table td{
+    border: 1px solid black;
+    margin: 0px;
+    border-collapse: collapse;
+    padding: 2px;
+}
+ .left{
+    text-align: left;
+ }
+ .gray{
+    background-color: rgb(224, 222, 222);
+ }
+
+ #font{
+    font-family:  "Lucida Console", "Courier New", monospace;
+ }
+ #submit{
+    background-color: rgb(188, 173, 173);
+    margin: 2px 110px;
+ }
+ 
