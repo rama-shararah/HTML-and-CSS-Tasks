@@ -26,10 +26,43 @@
         
         height: 500px;
         display: grid;
-        grid-template-columns: 25% 25% 25% 25% ;
+        grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows:auto auto auto ;
         
     }
+    @media only screen and (min-device-width: 0px) and (max-device-width: 480px){
+       .con{
+        grid-template-columns:96% ;
+        height: 2500px;
+        width: 100%;
+        grid-template-rows: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+        
+       } 
+       .container{
+        height: 2500px;
+        
+       }
+       .con>div{
+        width: 100%;
+        padding-right: 14px;
+       }
+
+    }
+    @media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+        .con{
+        grid-template-columns:50% 50% ;
+        height: 710px;
+        width: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20% 20%;
+        
+       } 
+       .container{
+        height: 850px;
+       }
+
+    }
+
+    
 
 </style>
 <body>

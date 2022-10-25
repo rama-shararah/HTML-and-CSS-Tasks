@@ -15,19 +15,25 @@
         }
         .con>div{
             width: 100%;
-            height: 750px;
+            height: 500px;
             font-size: 60px;
             text-align: center ;
             color: white;
+            padding-top: 250px;
             
-            position: relative;
+            
 
         }
-        p{
-            
-            position: absolute;
-            top: 40%;
-            left: 200px;
+
+        
+        @media only screen and (min-device-width: 0px) and (max-device-width: 480px){
+            .con{
+                flex-direction: column;
+
+            }
+            .con>div{
+                font-size: 40px;
+            }
         }
 
 
